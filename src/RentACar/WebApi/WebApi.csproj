@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <Reference Include="Core.Application">
-      <HintPath>..\..\..\Enterprise.Packages\src\Core.Application\bin\Debug\net8.0\Core.Application.dll</HintPath>
+      <HintPath>..\..\..\..\Enterprise.Packages\src\Core.Application\bin\Debug\net8.0\Core.Application.dll</HintPath>
     </Reference>
   </ItemGroup>
 
