@@ -30,9 +30,8 @@ public class GetListBrandQuery : IRequest<GetListResponse<GetListBrandListItemDt
                 cancellationToken: cancellationToken
                 );
 
-            GetListResponse<GetListBrandListItemDto> response = _mapper.Map<GetListResponse<GetListBrandListItemDto>>(brands);
-
-            return response;
+            var mappedBrandListModel = _mapper.Map<GetListResponse<GetListBrandListItemDto>>(brands);
+            return mappedBrandListModel;
         }
     }
 }
