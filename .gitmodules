@@ -1,0 +1,3 @@
+[submodule "src/Enterprise.Packages"]
+	path = src/Enterprise.Packages
+	url = https://github.com/taberkkaya/Enterprise.Packages.git
