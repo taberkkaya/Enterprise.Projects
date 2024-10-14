@@ -12,6 +12,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.4.6" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +23,9 @@
   <ItemGroup>
     <Reference Include="Core.Application">
       <HintPath>..\..\Enterprise.Packages\src\Core.Application\bin\Debug\net8.0\Core.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Persistence">
+      <HintPath>..\..\Enterprise.Packages\src\Core.Persistence\bin\Debug\net8.0\Core.Persistence.dll</HintPath>
     </Reference>
   </ItemGroup>
 
